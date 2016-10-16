@@ -4,7 +4,7 @@ public class RunDemo implements Runnable {
 	public String nameOfThread;
 	
 	RunDemo(String nameOfThread) {
-		nameOfThread = nameOfThread;
+		this.nameOfThread = nameOfThread;
 		System.out.println("In constructor to create " + nameOfThread);
 	}
 	
